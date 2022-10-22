@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock , Paper and Scissors</title>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+   <div class="all">
+        <div class="container">
+            <div class="titulo">
+                <h1 class="titulo-main">El primero en llegar a 5 gana!! </h1>
+            </div>
+            
+            <div class="info ">
+
+                <div class="score">
+                    <h3 id="player"> Puntos del jugador: 0</h3>
+                    <h3 id="pc1"> Puntos del Pc: 0</h3>
+                </div>
+  
+                <div class="result">
+                        <h3 id="humano">Selecceionaste:</h3>
+                        <h3 id="pc">Pc selecciono:</h3>
+                        <h3 id="resultado-del-juego">Resultado:</h3>
+                </div>
+                
+            </div>
+
+          
+
+           
+
+
+            <div class="Container-elecciones" id="container">
+
+                <div class="eleccion">
+                    <img onclick="jugar('0')" id="papel" src="./images/paper.png" >
+                    
+                </div>
+                
+                <div class="eleccion">
+                    <img  onclick="jugar('1')" id="tijeras" src="./images/scissors.png" ">
+                
+                </div>
+
+                <div class="eleccion">
+                    <img onclick="jugar('2')" id="piedra" src="./images/rock.png" >
+                    
+                </div>
+
+            </div>
+
+            <div class="button">
+                <button onclick="recargarPagina();" id="boton">Jugar de nuevo</button>
+            </div>
+            
+
+        </div>
+    </div>
+</body>
+</html>

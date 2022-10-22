@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    
+}
+
+body {
+    font-family: 'Exo', sans-serif;
+    background: #353941;
+    color: aliceblue;
+}
+
+.all{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container{
+    background: #5F85DB;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    padding: 30px;
+    width: 800px;
+    
+}
+
+.titulo-main{
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.info{
+    padding: 10px;
+    overflow: hidden;
+    
+}
+
+.score{
+    float: right;
+}
+
+.result{
+    float: left;
+}
+
+
+
+
+
+
+.Container-elecciones{
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.eleccion{
+    display: flex;
+    width: 100px;
+    height: 90px;
+    font-size: 40px;
+    cursor: pointer;
+    
+}
+
+
+#papel:hover,#tijeras:hover,#piedra:hover{
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+    border-radius: 30px;
+}
+
+
+.button{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    
+}
+
+#boton{
+    background-color: #353941;
+    border: none;
+    width: 160px;
+    height: 60px;
+    font-size: 25px;
+    color: aliceblue;
+    border-radius: 10px;
+
+}
+
+#boton:hover{
+   
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.4);
+}
